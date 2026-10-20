@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "sito-telefono",
+      "runtimeExecutable": "C:\\src\\flutter\\bin\\dart.bat",
+      "runtimeArgs": ["run", "tool/serve_release.dart", "8080"],
+      "port": 8080
+    },
+    {
+      "name": "sito-live",
+      "runtimeExecutable": "C:\\src\\flutter\\bin\\dart.bat",
+      "runtimeArgs": ["run", "tool/live_reload.dart", "5180", "0.0.0.0"],
+      "port": 5180
+    },
+    {
+      "name": "sito-flutter",
+      "runtimeExecutable": "C:\\src\\flutter\\bin\\flutter.bat",
+      "runtimeArgs": ["run", "-d", "web-server", "--web-port", "5173", "--web-hostname", "localhost"],
+      "port": 5173
+    }
+  ]
+}
